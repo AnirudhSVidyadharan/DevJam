@@ -19,14 +19,14 @@ nav ul {
 }
 nav ul li{
     display: inline-block;
-    margin-right:20px;
+    margin-left:20px;
 }
 a{
     text-decoration:none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:coral;    
     padding-right: 20px;
-    font-size:x-large; 
+    font-size:large; 
 }
 
 
@@ -83,7 +83,7 @@ a {
 }
 .btn{
     display:inline-block;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:white;
     background:coral;
     padding: 8px 30px;
@@ -121,4 +121,26 @@ a {
 .col-4 img{
      width:230px;
      
+}
+.title{
+    text-align:center;
+    margin: 0 auto 80px;
+    position:relative;
+    line-height: 60px;
+    color:black;
+}
+.striped-background {
+    background: linear-gradient(white,coral) ;
+    height: 300px; 
+  }
+  .name{
+    display:inline-block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:coral;
+    background:white;
+    padding: 1px 10px;
+   
+    border-radius: 30px;
+    transition: background 0.5s;
+
 }
